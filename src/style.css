@@ -1,0 +1,118 @@
+html {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	background-color: #F0841A;
+	font-family: 'M PLUS Rounded 1c';
+}
+
+header {
+	width: 100%;
+	
+	font-family: 'Palette Mosaic';
+	color: white;
+
+	text-align: center;
+}
+
+.Container {
+  margin: 50px;
+  text-align: center;
+}
+.contents-label {
+	font-weight: 900;
+	color: white;
+	text-align: center;
+}
+
+#Guide {
+	
+}
+#Guide > .contents-label {
+	border-bottom: solid 1px white;
+}
+
+#Entry {
+	display: none;
+
+	outline: solid 2px white;
+	outline-offset: 5px;
+
+	padding: 10px;
+
+	background-color: white;
+}
+#Entry > .contents-label {
+	color: #F0841A;
+}
+
+#Point {
+	display: none;
+}
+.point-area {
+	border-radius: 10px;
+	margin: px;
+	padding: 10px;
+	color: white;
+}
+#Pr {
+	background-color: #9999F8;
+}
+#Ae {
+	background-color: #A42516;
+}
+#Ph {
+	background-color: #57A6F8;
+}
+#Il {
+	background-color: #F19F39;
+}
+#Cam {
+	background-color: dimgray;
+}
+.point-label {
+	font-weight: bold;
+}
+.point-value {
+	display: inline-block;
+	margin: 0;
+	font-size: 1.5em;
+}
+.point-unit {
+	display: inline-block;
+	margin: 0;
+}
+
+#Serial {
+	display: none;
+
+	outline: solid 2px white;
+	outline-offset: 5px;
+
+	padding: 10px;
+
+	background-color: white;
+}
+#Serial > .contents-label {
+	color: #F0841A;
+}
+
+#Calendar > .contents-label {
+	border-bottom: solid 1px white;
+}
+
+#loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 1s;
+  background-color: rgb(91, 91, 91, .8);
+  background-size: cover;
+  display: none;
+  overscroll-behavior: none;
+}
